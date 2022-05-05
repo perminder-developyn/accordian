@@ -1,0 +1,107 @@
+html{
+    background-image: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+.card{
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 15rem;
+
+}
+
+.decoration{
+    width: 70%;
+    display: grid;
+    transform: translateY(-7rem) translateX(3rem);
+}
+
+.woman-mobile{
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 3;
+}
+.bg-pattern-mobile{
+    grid-column: 1 / span 2;
+    grid-row: 3/ span 3;
+}
+.FAQ{
+ margin-top: -8rem;
+}
+h1{
+    text-align: center;
+    color: hsl(238, 29%, 16%);
+}
+
+.attribution{
+    margin-top: 10rem;
+    bottom: 0;
+    position: fixed;
+}
+.spacer{
+    padding: 30rem;
+}
+
+.line{
+    border-top: 1px solid hsl(240, 5%, 91%);
+}
+
+/* ACCORDION */
+
+.accordion {
+    overflow: hidden;
+    padding: 2rem;
+  }
+  
+  .accordion__label {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .accordion__label {
+    display: block;
+    color: hsl(238, 29%, 16%);
+    cursor: pointer;
+    position: relative;
+    transition: 1s;
+  }
+  
+  .accordion__label:hover {
+      transition: .3s;
+    color:  hsl(14, 88%, 65%);
+  }
+  
+
+.arrow{
+    float: right;
+    transform: translateY(-2rem);
+}
+
+  .accordion__content {
+    color: hsl(240, 6%, 50%);
+    display: none;
+  }
+  
+  .accordion__input {
+    display: none;
+  }
+  
+  .accordion__input:checked ~ .accordion__content {
+    display: block;
+  }
+  .accordion__input:checked ~ .accordion__label {
+    font-weight: 700;
+    transition: 1s;
+  }
+  
+  .accordion__input:checked ~ .arrow {
+    transform: rotate(180deg) translateY(2rem);
+  }
+
