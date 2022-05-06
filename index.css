@@ -32,6 +32,17 @@ html{
     grid-column: 1 / span 2;
     grid-row: 3/ span 3;
 }
+
+.woman-desktop{
+ display: none; 
+}
+.bg-pattern-desktop{
+  display: none;
+}
+.orange-box{
+  display: none;
+}
+
 .FAQ{
  margin-top: -12rem;
 }
@@ -107,3 +118,64 @@ h1{
     transform: rotate(180deg) translateY(2rem);
   }
 
+  @media only screen and (min-width: 600px) {
+    body {
+      zoom: 140%;
+    }
+  }
+
+  
+  @media only screen and (min-width: 800px) {
+    body {
+      zoom: 100%;
+    }
+    h1{
+      text-align: left;
+      padding-left: 2rem;
+    }
+    .card{
+      width: 800px;
+      display: grid;
+      justify-content: center;
+    }
+
+    .FAQ{
+      width: 60%;
+      padding-top: 12rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      grid-column: 2 / span 2;
+      grid-row: 2/ span 3;
+    }
+     .decoration{
+       padding-top: 12%;
+      grid-column: 1 / span 2;
+      grid-row: 2/ span 3;
+     }
+    .bg-pattern-desktop{
+      display: block;
+    }
+    .woman-desktop{
+      display: block;
+    }
+    .bg-pattern-mobile,
+    .woman-mobile{
+      display: none;
+    }
+    .orange-box{
+      display: grid;
+    }
+  }
+
+
+
+  
+  @media only screen and (min-width: 1200px) {
+  body{
+   zoom: 120%;
+     }
+    .card{
+      width: 1000px;
+    }
+ 
+  }
