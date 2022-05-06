@@ -11,7 +11,7 @@ html{
     left: 50%;
     transform: translate(-50%);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
-    width: 350px;
+    width: 330px;
     background-color: white;
     border-radius: 1rem;
     margin-top: 15rem;
@@ -21,7 +21,7 @@ html{
 .decoration{
     width: 70%;
     display: grid;
-    transform: translateY(-7rem) translateX(3rem);
+    transform: translateY(-9.3rem) translateX(3.5rem);
 }
 
 .woman-mobile{
@@ -33,11 +33,13 @@ html{
     grid-row: 3/ span 3;
 }
 .FAQ{
- margin-top: -8rem;
+ margin-top: -12rem;
 }
 h1{
     text-align: center;
     color: hsl(238, 29%, 16%);
+    font-size:xx-large;
+    transform: translateY(2rem);
 }
 
 .attribution{
@@ -61,8 +63,8 @@ h1{
   }
   
   .accordion__label {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
   
   .accordion__label {
