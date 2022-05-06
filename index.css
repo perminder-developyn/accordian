@@ -129,6 +129,7 @@ h1{
     body {
       zoom: 100%;
     }
+    
     h1{
       text-align: left;
       padding-left: 2rem;
@@ -136,34 +137,44 @@ h1{
     .card{
       width: 800px;
       display: grid;
-      justify-content: center;
+      height: 66%;
     }
 
     .FAQ{
-      width: 60%;
-      padding-top: 12rem;
-      padding-left: 5rem;
-      padding-right: 5rem;
-      grid-column: 2 / span 2;
-      grid-row: 2/ span 3;
+      max-width: 500px;
+      padding-top: 16rem;
+      margin-top: -14rem;
+      grid-column: 3 / span 3;
+      grid-row: 1/ span 2;
+      margin-bottom: -15rem;
     }
+    
      .decoration{
-       padding-top: 12%;
-      grid-column: 1 / span 2;
-      grid-row: 2/ span 3;
+      margin-bottom: -20rem;
+      overflow: hidden;
+      grid-column: 1 / span 3;
+      grid-row: 2/ span 2;
+      transform: translateY(-15.5rem);
+
      }
+     .woman-desktop{
+      transform: translateX(-7rem) translateY(7rem);
+      display: block;
+    }
+    .orange-box{
+      display: block;
+      transform: translateY(17.5rem) translateX(-8rem);
+    }
     .bg-pattern-desktop{
+      z-index: -1;
+      zoom: 110%;
       display: block;
+      transform: translateX(-51rem) translateY(-53rem);
     }
-    .woman-desktop{
-      display: block;
-    }
+    
     .bg-pattern-mobile,
     .woman-mobile{
       display: none;
-    }
-    .orange-box{
-      display: grid;
     }
   }
 
@@ -172,7 +183,7 @@ h1{
   
   @media only screen and (min-width: 1200px) {
   body{
-   zoom: 120%;
+   zoom: 110%;
      }
     .card{
       width: 1000px;
