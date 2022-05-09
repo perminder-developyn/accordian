@@ -129,6 +129,9 @@ h1{
     body {
       zoom: 100%;
     }
+    .spacer{
+      display: none;
+    }
     
     h1{
       text-align: left;
@@ -137,7 +140,7 @@ h1{
     .card{
       width: 800px;
       display: grid;
-      height: 66%;
+      max-height: 700px;
     }
 
     .FAQ{
